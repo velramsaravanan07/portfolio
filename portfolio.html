@@ -304,15 +304,15 @@
                 </div>
             </div>
             <div class="contact-form">
-                <form action>
-                    <input type="text" placeholder="Enter your name" required>
-                    <input type="email" placeholder="Enter your email" required>
-                    <input type="text" placeholder="Enter your subject">
-                    <textarea name id cols="40" rows="10"
-                        placeholder="Enter your message"></textarea>
+                <form name="contact-form" method="post" action="">
+                    <input type="text" name="your-name" placeholder="Enter your name" required>
+                    <input type="email" name="your-email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea name="message" cols="40" rows="10" placeholder="Enter your message" required></textarea>
+                    <div><input type="submit" value="Submit" class="submit"></div>
                 </form>
-                <div><input type="submit" value="Submit" class="submit"></div>
             </div>
+            
         </section>
 
         <a href="#home" class="top"><i class="bx bx-up-arrow-alt"></i></a>
@@ -394,10 +394,10 @@
           </script>
 
 
-<!-- -----font awesome---- -->
+
 
 <script src="https://kit.fontawesome.com/7771924845.js" crossorigin="anonymous"></script>
           
-          
+    <script src="Google sheet.js"></script>      
     </body>
 </html>
