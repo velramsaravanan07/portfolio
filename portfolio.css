@@ -317,27 +317,27 @@ span {
 }
 
 .javascript {
-    width: 60%;
+    width: 75%;
     background-color: #f0db4f;
 }
 
-.react {
-    width: 50%;
-    background-color: #61dafb;
+.java {
+    width: 70%;
+    background-color: #680894;
 }
 
-.nodejs {
-    width: 40%;
-    background-color: #68a063;
+.mysql{
+    width: 80%;
+    background-color: #b30e8f;
 }
 
 .github {
-    width: 75%;
-    background-color: #181717;
+    width: 60%;
+    background-color: #c52828;
 }
 
-.mongodb {
-    width: 30%;
+.manual{
+    width: 85%;
     background-color: #4db33d;
 }
 
